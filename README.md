@@ -1,5 +1,5 @@
 
-### Todo Appp
+### Todo App
 This app helps you create daily todo task.
 You will be able to -
 1. Create a new TODO
