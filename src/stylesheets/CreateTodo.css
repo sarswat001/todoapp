@@ -1,0 +1,35 @@
+.createTodo-container{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(210, 206, 206);
+    /* box-shadow: 2px 2px 10px 1px #cfcaca; */
+}
+.createTodo-two{
+    display: flex;
+    flex-direction: column;
+}
+.title,.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title1,.title2,.description1,.description2{
+    margin: 4px 6px;
+}
+.create{
+    padding:8px 15px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: opacity 0.25s;
+    background-color: rgb(24, 150, 24);
+    box-shadow: 2px 2px 20px 3px #cfcaca;
+}
+.create:hover{
+    opacity: 0.7;
+}

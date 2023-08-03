@@ -1,0 +1,47 @@
+.getTodo-container{
+    width: 200px;
+    padding: 10px 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px ridge rgb(109, 106, 106);
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+p{
+    margin: 0;
+}
+.todo-title{
+    font-weight: bold;
+}
+.todo-description{
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+button{
+    margin: 2px 10px;
+}
+.edit,.delete{
+    padding:6px 10px;
+    border-radius: 3px;
+    border: none;
+    font-weight: medium;
+    color: whitesmoke;
+    transition: opacity 0.25s;
+}
+.edit:hover,.delete:hover{
+    opacity: 0.7;
+}
+.edit{
+    background-color: rgb(49, 191, 49);
+}
+.delete{
+    background-color: rgb(227, 103, 103);
+}
